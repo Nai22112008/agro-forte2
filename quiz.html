@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Agrinho</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Quiz Interativo</h1>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="tecnologia.html">Tecnologia</a>
+        <a href="sustentabilidade.html">Sustentabilidade</a>
+        <a href="quiz.html">Quiz</a>
+    </nav>
+</header>
+
+<section class="quiz-container">
+
+    <h2>Teste seus conhecimentos 🌱</h2>
+
+    <div class="pergunta">
+        <p>1. Qual é o principal objetivo da sustentabilidade?</p>
+
+        <button onclick="respostaCorreta(this)">
+            Preservar o meio ambiente
+        </button>
+
+        <button onclick="respostaErrada(this)">
+            Poluir rios
+        </button>
+
+        <button onclick="respostaErrada(this)">
+            Desmatar florestas
+        </button>
+    </div>
+
+    <div class="pergunta">
+        <p>2. A tecnologia no campo ajuda em:</p>
+
+        <button onclick="respostaCorreta(this)">
+            Aumentar a produtividade
+        </button>
+
+        <button onclick="respostaErrada(this)">
+            Destruir plantações
+        </button>
+
+        <button onclick="respostaErrada(this)">
+            Gastar mais recursos
+        </button>
+    </div>
+
+    <div class="pergunta">
+        <p>3. Campo e cidade precisam:</p>
+
+        <button onclick="respostaErrada(this)">
+            Competir
+        </button>
+
+        <button onclick="respostaCorreta(this)">
+            Trabalhar juntos
+        </button>
+
+        <button onclick="respostaErrada(this)">
+            Se separar
+        </button>
+    </div>
+
+    <h3 id="resultado"></h3>
+
+</section>
+
+<footer>
+    <p>Projeto Agrinho 2026</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
